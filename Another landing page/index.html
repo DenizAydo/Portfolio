@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsive Page</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#überMich" class="nav__link active-link">Über mich</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#knowledge" class="nav__link">Kenntnisse</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#standort" class="nav__link">Standort</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#hobbies" class="nav__link">Hobbies</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--=============== START ===============-->
+        <section class="start section" id="überMich">
+            <div class="start__container container grid">
+                <div>
+                    <img src="img/Deniz.jpg" alt="" class="start__img">
+                </div>
+                
+                <div class="start__data">
+                    <div class="start__header">
+                        <h1 class="start__title">Deniz</h1>
+                        <h2 class="start__subtitle">Aydogan</h2>
+                    </div>
+
+                    <div class="start__footer">
+                        <h3 class="start__title-description">Das bin ich:</h3>
+                        <p class="start__description"> Ich bin Deniz, 19 Jahre alt und komme aus Frohnhofen, Laufach. Meine Hobbies sind Fitness, Kampfsport und das leidenschaftliche Programmieren.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== KNOWLEDGE ===============-->
+        <section class="knowledge section grid" id="knowledge">
+            <h2 class="section__title section__title-gradient">Kenntnisse</h2>
+            <div class="knowledge__container container grid">
+                <div class="knowledge__content grid">
+                    <div class="knowledge__data">
+                        <div class="knowleddge__icons">
+                            <i class="ri-javascript-line"></i>
+                            <i class="ri-html5-line"></i>
+                            <i class="ri-css3-line"></i>
+                        </div>
+                        <h3 class="knowledge__title">JavaScript, HTML, CSS</h3>
+                        <span class="knowledge__subtitle">Simple Landing Page </span>
+                        <span class="knowledge__subtitle">Webtaschenrechner </span>
+                        <span class="knowledge__subtitle">Erstes simples Spiel </span>
+                        <span class="knowledge__subtitle">Simple Merkliste </span>
+                    </div>
+
+                    <div class="knowledge__data">
+                        <i class='fab fa-java' style='font-size:20px;color: #dedede'></i>
+                        <h3 class="knowledge__title">Java</h3>
+                        <span class="knowledge__subtitle">Über 13 Projektabgaben in AuD und FOP </span>
+                        <span class="knowledge__subtitle">Webcrawler </span>
+                        <span class="knowledge__subtitle">Stacks und Queues Projekt </span>
+                    </div>
+
+                    <div class="knowledge__data">
+                        <i class="fab fa-python" style="color: #dedede;"></i>
+                        <h3 class="knowledge__title">Python</h3>
+                        <span class="knowledge__subtitle">Stacks und Queues Projekt </span>
+                    </div>
+
+                    <div class="knowledge__data">
+                        <i class="ri-windows-line"></i>
+                        <h3 class="knowledge__title">MS Office</h3>
+                        <span class="knowledge__subtitle">Word </span>
+                        <span class="knowledge__subtitle">PowerPoint </span>
+                        <span class="knowledge__subtitle">Excel </span>
+                    </div>
+                </div>
+                
+                <div>
+                    <img src="img/programm.jpg" alt="" class="knowledge__img">
+                </div>
+            </div>
+        </section>
+
+        <!--=============== STANDORT ===============-->
+        <section class="location section grid" id="standort">
+            <h2 class="section__title section__title-gradient">Standort</h2>
+            <div class="location__container container grid">
+                <div>
+                    <img src="img/tuDarmstadt.jpg" alt="" class="location__img">
+                </div>
+                <div class="location__data">
+                    <div class="location__text">
+                        <p class="location__description"> 
+                            Zur Zeit studiere ich in Darmstadt, Hessen. Ich bin immatrikulierter Student im dritten Semester in der Wirtschaftsinformatik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== GEOGRAPHIC VISUALS ===============-->
+        <section class="geographic section">
+            <div class="geo__container container grid">
+                <div class="geo__animate">
+                    <div class="geographic__item">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2571.2919288090343!2d8.656344803132653!3d49.874544125619806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x417348cc18ad74b3%3A0x747fd64cc19d44c2!2sTechnische%20Universit%C3%A4t%20Darmstadt!5e0!3m2!1sde!2sde!4v1698664579560!5m2!1sde!2sde" width="900" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== HOBBIES ===============-->
+        <section class="hobbies section" id="hobbies">
+            <h2 class="section__title section__title-gradient hobbies__line">
+               Hobbies 
+            </h2>
+
+            <div class="hobbies__container container grid">
+                <article class="hobbies__card">
+                    <div class="hobbies__content">
+                        <img src="img/gym.jpg" alt="" class="hobbies__img">
+
+                        <span class="hobbies__price">Fitness</span>
+                            <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                </article>
+
+                <article class="hobbies__card">
+                    <div class="hobbies__content">
+                        <img src="img/martialArts.jpg" alt="" class="hobbies__img">
+
+                        <span class="hobbies__price">Kampfsport</span>
+
+                        <i class="fa-solid fa-stopwatch-20"></i>
+                    </div>
+                </article>
+                <article class="hobbies__card">
+                    <div class="hobbies__content">
+                        <img src="img/programming.jpg" alt="" class="hobbies__img">
+
+                        <span class="hobbies__price">Programmieren</span>
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <a href="#" class="footer__logo"></a>
+            <div class="footer__content">
+                <form action="" class="footer__form">
+                    <input type="email" placeholder="Email" class="footer__input">
+                    <button class="button button--flex">
+                        <i class="ri-send-plane-line button__icon"></i> senden
+                    </button>
+                </form>
+
+                <div class="footer__social">
+                    <a href="https://www.youtube.com" target="_blank" class="footer__social-link">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+                    <a href="https://www.instagram.com/denizz.aydo/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://twitch.tv" target="_blank" class="footer__social-link">
+                        <i class="ri-twitch-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+    
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+</body>
+</html>
